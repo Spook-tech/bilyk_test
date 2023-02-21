@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Заголовок</title>
+    <meta charset="UTF-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230216122953"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&amp;display=swap&_v=20230216122953" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230216122953" rel="stylesheet"/>
+  </head>
+  <body> 
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__menu__body">
+            <div class="header__menu">
+              <div class="header__menu__top">
+                <div class="header__menu__logo"><a href="index.html"> <img src="img/icons/logo-gold.svg" alt=""/></a>
+                  <button class="button-close close-menu"></button>
+                </div>
+                <div class="header__menu__desc">Жіночий базовий одяг,  зроблений в Україні.</div>
+                <div class="header__menu__buttons">
+                  <button class="button button-login">УВІЙТИ</button>
+                  <button class="button button-register">ЗАРЕЄСТРУВАТИСЬ</button>
+                </div>
+              </div>
+              <ul class="header__menu__list">
+                <li class="header__menu__list-item"><a class="hover__effect-line" href="#">КАТАЛОГ</a></li>
+                <li class="header__menu__list-item"><a class="hover__effect-line" href="#">BESTSELLERS</a></li>
+                <li class="header__menu__list-item"><a class="hover__effect-line" href="#">SALE</a></li>
+                <li class="header__menu__list-item"><a class="hover__effect-line" href="#">ПРО НАС</a></li>
+                <li class="header__menu__list-item"><a class="hover__effect-line" href="#">КОНТАКТИ</a></li>
+                <li class="header__menu__list-item"><a class="hover__effect-line" href="#">СПИСОК БАЖАНЬ</a></li>
+              </ul>
+              <div class="header__menu__socials">
+                <div class="header__menu__social"><a href="#"><img src="img/socials/instagram.svg" alt=""/></a></div>
+                <div class="header__menu__social"><a href="#"><img src="img/socials/tiktok.svg" alt=""/></a></div>
+                <div class="header__menu__social"><a href="#"><img src="img/socials/telegram.svg" alt=""/></a></div>
+                <div class="header__menu__social"><a href="#"><img src="img/socials/viber.svg" alt=""/></a></div>
+                <div class="header__menu__social"><a href="#"><img src="img/socials/whatsapp.svg" alt=""/></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-cart">
+            <div class="menu-cart-wrapper">
+              <div class="menu-cart__title">ТОВАР ДОДАНО ДО КОШИКУ</div>
+              <div class="menu-cart__top"> 
+                <div class="menu-cart__top__buttons"> 
+                  <button class="menu-cart__top__back"> <img src="img/icons/arrow.svg" alt=""/>НАЗАД</button>
+                  <button class="menu-cart__top__cart"> <img src="img/icons/cart.svg" alt=""/>КОШИК</button>
+                </div>
+                <div class="menu-cart__free-delivery">
+                  <div class="menu-cart__free-delivery__text">БЕЗКОШТОВНА ДОСТАВКА ВІД 3000 грн (залишилось 789 грн)</div>
+                </div>
+              </div>
+              <div class="menu-cart__items"> 
+                <div class="cart-block__item"> 
+                  <div class="cart-block__item__img"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                  <div class="cart-block__item__info"> 
+                    <div class="cart-block__item__header"> 
+                      <div class="cart-block__item__name">Палантин</div>
+                      <button class="cart-block__item__like hover__effect-box"> 
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.071 9.14198L11.4141 14.7988C10.6331 15.5799 9.36672 15.5799 8.58568 14.7988L2.92882 9.14198C0.9762 7.18936 0.9762 4.02353 2.92882 2.07091C4.88144 0.11829 8.04727 0.11829 9.99989 2.07091C11.9525 0.11829 15.1183 0.11829 17.071 2.07091C19.0236 4.02353 19.0236 7.18936 17.071 9.14198Z" stroke="#221F20" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="cart-block__item__price"> <span class="price-red">1110 ₴</span><span class="price-old">3122 ₴</span></div>
+                    <div class="cart-block__item-desc">
+                      <div class="cart-block__item__info-text cart-block__item__color">Колір: білий</div>
+                      <div class="cart-block__item__info-text cart-block__item__size">Розмір: XS</div>
+                    </div>
+                    <div class="cart-block__item__footer"> 
+                      <div class="cart-block__item__number">12</div>
+                      <button class="cart-block__item__delete"> <img src="img/icons/Trash.svg" alt=""/></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-block__item"> 
+                  <div class="cart-block__item__img"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                  <div class="cart-block__item__info"> 
+                    <div class="cart-block__item__header"> 
+                      <div class="cart-block__item__name">Палантин</div>
+                      <button class="cart-block__item__like hover__effect-box"> 
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.071 9.14198L11.4141 14.7988C10.6331 15.5799 9.36672 15.5799 8.58568 14.7988L2.92882 9.14198C0.9762 7.18936 0.9762 4.02353 2.92882 2.07091C4.88144 0.11829 8.04727 0.11829 9.99989 2.07091C11.9525 0.11829 15.1183 0.11829 17.071 2.07091C19.0236 4.02353 19.0236 7.18936 17.071 9.14198Z" stroke="#221F20" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="cart-block__item__price"> <span class="price-red">1110 ₴</span><span class="price-old">3122 ₴</span></div>
+                    <div class="cart-block__item__size">Розмір: XS</div>
+                    <div class="cart-block__item__color">Колір: білий</div>
+                    <div class="cart-block__item__footer"> 
+                      <div class="cart-block__item__number">12</div>
+                      <button class="cart-block__item__delete"> <img src="img/icons/Trash.svg" alt=""/></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-block__item"> 
+                  <div class="cart-block__item__img"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                  <div class="cart-block__item__info"> 
+                    <div class="cart-block__item__header"> 
+                      <div class="cart-block__item__name">Палантин</div>
+                      <button class="cart-block__item__like hover__effect-box"> 
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.071 9.14198L11.4141 14.7988C10.6331 15.5799 9.36672 15.5799 8.58568 14.7988L2.92882 9.14198C0.9762 7.18936 0.9762 4.02353 2.92882 2.07091C4.88144 0.11829 8.04727 0.11829 9.99989 2.07091C11.9525 0.11829 15.1183 0.11829 17.071 2.07091C19.0236 4.02353 19.0236 7.18936 17.071 9.14198Z" stroke="#221F20" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="cart-block__item__price"> <span class="price-red">1110 ₴</span><span class="price-old">3122 ₴</span></div>
+                    <div class="cart-block__item__size">Розмір: XS</div>
+                    <div class="cart-block__item__color">Колір: білий</div>
+                    <div class="cart-block__item__footer"> 
+                      <div class="cart-block__item__number">12</div>
+                      <button class="cart-block__item__delete"> <img src="img/icons/Trash.svg" alt=""/></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-cart__empty" style="display:none;"><img src="img/icons/cart.svg" alt=""/>
+                <div class="menu-cart__empty__text">У КОШИКУ НЕМАЄ ТОВАРІВ</div>
+              </div>
+              <div class="menu-cart__summary">
+                <div class="menu-cart__summary__text"> <span>ЗАГАЛОМ</span><span>13 555 ₴</span></div>
+                <div class="menu-cart__summary__button button-gray">ОФОРМИТИ ЗАМОВЛЕННЯ</div>
+                <div class="menu-cart__summary__button menu-cart__summary__button-empty button-gray" style="display:none;">ПЕРЕЙТИ ДО КАТАЛОГУ</div>
+              </div>
+            </div>
+          </div>
+          <div class="header__burger__body">
+            <button class="header__burger close-menu"></button>
+          </div>
+          <div class="header__logo"><a href="index.html"> <img src="img/icons/logo.svg" alt=""/></a></div>
+          <div class="header__actions">
+            <div class="header__actions-item header__favourites hover__effect-box"><img width="24" height="24" src="img/icons/like.svg" alt=""/></div>
+            <div class="header__actions-item header__profile hover__effect-box"><img width="24" height="24" src="img/icons/profile.svg" alt=""/>
+              <div class="header__login__wrapper"> 
+                <div class="header__login"> 
+                  <div class="header__login__title">ОСОБИСТИЙ КАБІНЕТ</div>
+                  <div class="header__login__buttons"> <a class="popup-link header__login__btn button-gray" href="#login-popup">УВІЙТИ</a><a class="popup-link header__login__btn button-gray-border" href="#register-popup">ЗАРЕЄСТРУВАТИСЬ</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="header__actions-item header__cart hover__effect-box"><img width="24" height="24" src="img/icons/cart.svg" alt=""/><span class="header__cart-number">13</span></div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="catalog__top-menu"> 
+          <div class="catalog__top-menu__container"> 
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__link"><a href="index.html">Головна</a></li><span class="decor">/</span>
+              <li class="breadcrumbs__link"><a href="index.html">Каталог</a></li>
+            </ul>
+            <div class="catalog__filters-menu"><img src="img/icons/Options.svg" alt=""/><span>ФІЛЬТР</span><span class="catalog__filters-menu-number">11</span>
+              <div class="filters-block-wrapper"> 
+                <div class="filters-block"> 
+                  <form action=""> 
+                    <div class="filters-block__colors"> 
+                      <div class="filters-block__title">КОЛІР</div>
+                      <div class="filters-block__items">
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-white"/>
+                          <label class="decor" for="filters-color-white"></label>
+                          <label class="filter-white filter-circle" for="filters-color-white">білий</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-gold"/>
+                          <label class="decor" for="filters-color-gold"></label>
+                          <label class="filter-gold filter-circle" for="filters-color-gold">золотий</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-pink"/>
+                          <label class="decor" for="filters-color-pink"></label>
+                          <label class="filter-pink filter-circle" for="filters-color-pink">рожевий</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-light-pink"/>
+                          <label class="decor" for="filters-color-light-pink"></label>
+                          <label class="filter-light-pink filter-circle" for="filters-color-light-pink">блідно-рожевий</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-green"/>
+                          <label class="decor" for="filters-color-green"></label>
+                          <label class="filter-green filter-circle" for="filters-color-green">зелений</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-dark-blue"/>
+                          <label class="decor" for="filters-color-dark-blue"></label>
+                          <label class="filter-dark-blue filter-circle" for="filters-color-dark-blue">темно-синій</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filters-block__sizes">
+                      <div class="filters-block__title">РОЗМІР</div>
+                      <div class="filters-block__items">
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-M"/>
+                          <label class="decor" for="filters-size-M"></label>
+                          <label for="filters-size-M">M </label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-XS"/>
+                          <label class="decor" for="filters-size-XS"></label>
+                          <label for="filters-size-XS">XS </label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-S"/>
+                          <label class="decor" for="filters-size-S"></label>
+                          <label for="filters-size-S">S </label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-L"/>
+                          <label class="decor" for="filters-size-L"></label>
+                          <label for="filters-size-L">L</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-XL"/>
+                          <label class="decor" for="filters-size-XL"></label>
+                          <label for="filters-size-XL">XL</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filters-block__buttons">
+                      <button class="filters-block__button button-gray">ЗАСТОСУВАТИ</button>
+                      <button class="filters-block__button button-gray-border">СКИНУТИ ВСЕ</button>
+                    </div>
+                    <div class="catalog__tags">
+                      <div class="catalog__tag tag">
+                        <button class="tag__icon"><img src="img/icons/close.svg" alt=""/></button>
+                        <div class="tag__text">Bestsellers</div>
+                      </div>
+                      <div class="catalog__tag tag">
+                        <button class="tag__icon"><img src="img/icons/circle.svg" alt=""/></button>
+                        <div class="tag__text">білий</div>
+                      </div>
+                      <div class="catalog__tag tag">
+                        <div class="tag__text">Розмір: M</div>
+                      </div>
+                      <div class="catalog__tag tag">
+                        <button class="tag__icon"><img src="img/icons/close.svg" alt=""/></button>
+                        <div class="tag__text">Скинути все</div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="empty-favourites"> 
+          <div class="empty-favourites__container"> 
+            <div class="empty-favourites__text"> 
+              <div class="empty-favourites__icon"> <img src="img/icons/like.svg" alt=""/></div><span>ВАШ СПИСОК БАЖАНЬ ПОРОЖНІЙ</span>
+            </div>
+            <div class="empty-favourites__buttons"> 
+              <button class="empty-favourites__button button-gray popup-link" href="#login-popup">УВІЙТИ ДО ОСОБИСТОГО АККАУНТУ</button><a class="empty-favourites__button button-gray-border" href="catalog.html">ПЕРЕЙТИ ДО КАТАЛОГУ</a>
+            </div>
+          </div>
+        </section>
+        <section class="favourites _active">
+          <div class="catalog__container"> 
+            <div class="catalog__tags">
+              <div class="catalog__tag tag">
+                <button class="tag__icon"><img src="img/icons/close.svg" alt=""/></button>
+                <div class="tag__text">Bestsellers</div>
+              </div>
+              <div class="catalog__tag tag">
+                <button class="tag__icon"><img src="img/icons/circle.svg" alt=""/></button>
+                <div class="tag__text">білий</div>
+              </div>
+              <div class="catalog__tag tag">
+                <div class="tag__text">Розмір: M</div>
+              </div>
+              <div class="catalog__tag tag">
+                <button class="tag__icon"><img src="img/icons/close.svg" alt=""/></button>
+                <div class="tag__text">Скинути все</div>
+              </div>
+            </div>
+            <div class="catalog__items columns-4">           
+              <div class="product__card">
+                <div class="product__card__like"> <img src="img/icons/like-fill.svg" alt=""/></div>
+                <div class="product__card__img"><picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                <div class="product__card__top">
+                  <div class="product__card__tags">
+                    <div class="product__card__tag product__card-sale">SALE</div>
+                  </div>
+                </div>
+                <form class="product__card__bottom">
+                  <div class="product__card__size">
+                    <p>
+                      <input id="size-XS_1" type="radio" name="size" checked=""/>
+                      <label for="size-XS_1">XS</label>
+                    </p>
+                    <p>
+                      <input id="size-S_1" type="radio" name="size"/>
+                      <label for="size-S_1">S</label>
+                    </p>
+                    <p>
+                      <input id="size-M_1" type="radio" name="size"/>
+                      <label for="size-M_1">M</label>
+                    </p>
+                    <p>
+                      <input id="size-L_1" type="radio" name="size"/>
+                      <label for="size-L_1">L</label>
+                    </p>
+                    <p>
+                      <input id="size-XL_1" type="radio" name="size"/>
+                      <label for="size-XL_1">XL</label>
+                    </p>
+                  </div>
+                  <div class="product__card__buy">
+                    <div class="product__card__color">
+                      <p>
+                        <input id="color-white_1" type="radio" name="color" checked=""/>
+                        <label for="color-white_1"></label>
+                      </p>
+                      <p>
+                        <input class="product-white-pink" id="color-white-pink_1" type="radio" name="color"/>
+                        <label for="color-white-pink_1"></label>
+                      </p>
+                      <p>
+                        <input class="product-green" id="color-green_1" type="radio" name="color"/>
+                        <label for="color-green_1"></label>
+                      </p>
+                    </div>
+                    <button class="product__card__btn add-to-cart"> ДОДАТИ В КОШИК</button>
+                  </div>
+                </form>
+              </div>
+              <div class="product__card">
+                <div class="product__card__like"> <img src="img/icons/like-fill.svg" alt=""/></div>
+                <div class="product__card__img"><picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                <div class="product__card__top">
+                  <div class="product__card__tags">
+                    <div class="product__card__tag product__card-sale">SALE</div>
+                  </div>
+                </div>
+                <form class="product__card__bottom">
+                  <div class="product__card__size">
+                    <p>
+                      <input id="size-XS_2" type="radio" name="size" checked=""/>
+                      <label for="size-XS_2">XS</label>
+                    </p>
+                    <p>
+                      <input id="size-S_2" type="radio" name="size"/>
+                      <label for="size-S_2">S</label>
+                    </p>
+                    <p>
+                      <input id="size-M_2" type="radio" name="size"/>
+                      <label for="size-M_2">M</label>
+                    </p>
+                    <p>
+                      <input id="size-L_2" type="radio" name="size"/>
+                      <label for="size-L_2">L</label>
+                    </p>
+                    <p>
+                      <input id="size-XL_2" type="radio" name="size"/>
+                      <label for="size-XL_2">XL</label>
+                    </p>
+                  </div>
+                  <div class="product__card__buy">
+                    <div class="product__card__color">
+                      <p>
+                        <input id="color-white_2" type="radio" name="color" checked=""/>
+                        <label for="color-white_2"></label>
+                      </p>
+                      <p>
+                        <input class="product-white-pink" id="color-white-pink_2" type="radio" name="color"/>
+                        <label for="color-white-pink_2"></label>
+                      </p>
+                      <p>
+                        <input class="product-green" id="color-green_2" type="radio" name="color"/>
+                        <label for="color-green_2"></label>
+                      </p>
+                    </div>
+                    <button class="product__card__btn add-to-cart"> ДОДАТИ В КОШИК</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="__container"> 
+        <button class="button-gray" id="empty-favourites-change-btn">Зробити сторінку пустою</button>
+      </div>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__top">
+            <div class="footer__info">
+              <div class="footer__logo"><img src="img/icons/logo-gold.svg" alt=""/></div>
+              <div class="footer__desc">Жіночий базовий одяг,  зроблений в Україні.</div>
+              <ul class="footer__socials">
+                <li class="footer__social"><a href="#"><img src="img/socials/instagram.svg" alt=""/></a></li>
+                <li class="footer__social"><a href="#"><img src="img/socials/tiktok.svg" alt=""/></a></li>
+                <li class="footer__social"><a href="#"><img src="img/socials/telegram.svg" alt=""/></a></li>
+                <li class="footer__social"><a href="#"><img src="img/socials/viber.svg" alt=""/></a></li>
+                <li class="footer__social"><a href="#"><img src="img/socials/whatsapp.svg" alt=""/></a></li>
+              </ul>
+            </div>
+            <ul class="footer__menu">
+              <li class="footer__link"><a class="hover__effect-line" href="#">Каталог</a></li>
+              <li class="footer__link"><a class="hover__effect-line" href="#">Про нас</a></li>
+              <li class="footer__link"><a class="hover__effect-line" href="#">Контакти</a></li>
+            </ul>
+            <ul class="footer__menu">
+              <li class="footer__link"><a class="hover__effect-line" href="#">Доставка та оплата</a></li>
+              <li class="footer__link"><a class="hover__effect-line" href="#">Обмін і повернення товару</a></li>
+              <li class="footer__link"><a class="hover__effect-line" href="#">Розмірна сітка</a></li>
+              <li class="footer__link"><a class="hover__effect-line" href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer__bottom"><small class="footer__copy footer__bottom-item"><a href="#"><span>© BILYK 2022.</span> ВСІ ПРАВА ЗАХИЩЕНІ.</a></small>
+            <div class="footer__bottom-links">
+              <div class="footer__privacy footer__bottom-item"><a href="#">ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ</a></div>
+              <div class="footer__conditions footer__bottom-item"><a href="#">УМОВИ ВИКОРИСТАННЯ САЙТУ</a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="popup" id="already__account-popup" aria-hidden="true">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <div class="popup__body">
+            <button class="close-popup" data-close="" type="button"> <img src="img/icons/circle-close.svg" alt=""/></button>
+            <form action="URL">
+              <div class="already__account border-bottom">
+                <div class="already__account-title">У мене вже є особистий особистий аккаунт</div>
+                <p class="already__account-text">Оформити замовлення зі збереженими даними.</p>
+                <div class="already__account__sign-in__login">
+                  <label class="order-page-label" for="log-in__popup-login">Логін</label>
+                  <input class="login-input" type="text" placeholder="Введіть Ваш логін" id="log-in__popup-login"/>
+                </div>
+                <div class="already__account__sign-in__password">
+                  <label class="order-page-label" for="log-in__popup-password">Пароль</label>
+                  <input class="login-input input-password" type="password" placeholder="Введіть Ваш пароль" id="log-in__popup-password"/>
+                  <button class="show-password-btn"><img src="img/icons/eye.svg" alt=""/></button>
+                </div>
+                <button class="already__account-btn button-gray">УВІЙТИ ТА ПРОДОВЖИТИ ОФОРМЛЕННЯ</button>
+              </div>
+              <div class="already__account__first-time"> 
+                <div class="already__account-title">Купую у вас вперше</div><a class="button-gray already__account__first-time__btn" href="#">ПЕРЕЙТИ ДО ВВЕДЕННЯ ДАНИХ </a>
+                <div class="login-checkbox">
+                  <input type="checkbox" name="without-register" checked="checked" id="log-in__popup_without-register"/>
+                  <label class="decor" for="log-in__popup__without-register"></label>
+                  <label for="log-in__popup__without-register">Продовжити без реєстрації   </label>
+                </div>
+                <div class="order-page_email-wrapper">
+                  <label class="order-page-label" for="log-in__popup-email">Електронна пошта</label>
+                  <input class="login-input" type="text" placeholder="Введіть Вашу електронну пошту" id="log-in__popup-email"/>
+                  <label class="_error error-text">Неправильно введена електронна пошта</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="edit-data-contacts" aria-hidden="true">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <div class="popup__body edit-data__body">
+            <button class="close-popup" data-close="" type="button"> <img src="img/icons/circle-close.svg" alt=""/></button>
+            <form class="edit-data" action="URL">
+              <div class="edit-data__title">Особисті дані</div>
+              <div class="edit-data__form"> 
+                <div class="edit-data__name"> 
+                  <div class="edit-data__name__label">Ім’я</div>
+                  <input class="edit-data__name__input" type="text" placeholder="Введіть Ваше ім'я"/>
+                </div>
+                <div class="edit-data__surname">
+                  <div class="edit-data__surname__label">Прізвище</div>
+                  <input class="edit-data__surname__input" type="text" placeholder="Введіть Ваше прізвище"/>
+                </div>
+                <div class="edit-data__phone">
+                  <div class="edit-data__phone__label">Телефон</div>
+                  <input class="edit-data__phone__input" type="text" placeholder="Введіть Ваш телефон"/>
+                </div>
+                <div class="edit-data__email">  
+                  <div class="edit-data__email__label">Електронна пошта</div>
+                  <input class="edit-data__email__input" type="text" placeholder="Введіть Вашу електронну пошту"/>
+                </div>
+                <div class="edit-data__buttons"> 
+                  <button class="button-gray edit-data__button">ЗБЕРЕГТИ</button>
+                  <button class="button-gray-border edit-data__button">СКАСУВАТИ</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="edit-data-delivery" aria-hidden="true">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <div class="popup__body edit-data__body">
+            <button class="close-popup" data-close="" type="button"> <img src="img/icons/circle-close.svg" alt=""/></button>
+            <form class="edit-data" action="URL">
+              <div class="edit-data__title">Адреса доставки</div>
+              <div class="edit-data__form"> 
+                <div class="edit-data__city">
+                  <div class="edit-data__city__label">Місто</div>
+                  <input class="edit-data__name__input" type="text" placeholder="Введіть Ваше місто"/>
+                </div>
+                <div class="edit-data__department">
+                  <div class="edit-data__department__label">Відділення Нової пошти</div>
+                  <input class="edit-data__surname__input" type="text" placeholder="Введіть Ваше відділення Нової пошти"/>
+                </div>
+                <div class="edit-data__buttons"> 
+                  <button class="button-gray edit-data__button">ЗБЕРЕГТИ</button>
+                  <button class="button-gray-border edit-data__button">СКАСУВАТИ</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="edit-data-payment" aria-hidden="true">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <div class="popup__body edit-data__body">
+            <button class="close-popup" data-close="" type="button"> <img src="img/icons/circle-close.svg" alt=""/></button>
+            <form class="edit-data" action="URL">
+              <div class="edit-data__title">Гаманець</div>
+              <div class="edit-data__buttons">
+                <button class="button-gray-border edit-data__payment__button"> <span class="edit-data__payment__button__wrapper"><span class="decor">+</span>ДОДАТИ КАРТУ</span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="login-popup" aria-hidden="true">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <div class="popup__body">
+            <button class="close-popup" data-close="" type="button"> <img src="img/icons/circle-close.svg" alt=""/></button>
+            <form class="login-popup__form" action="URL">
+              <div class="login-popup__title">Вхід</div>
+              <div class="login-popup__form">
+                <div class="login-popup__form__email">
+                  <div class="login-popup__email__label">Електронна пошта</div>
+                  <input type="text" placeholder=""/>
+                </div>
+                <div class="login-popup__form__password">
+                  <div class="login-popup__password__label">Пароль</div>
+                  <input type="text" placeholder=""/><span class="_error">Невірно введений пароль</span>
+                </div>
+                <div class="login-popup__form__actions"> 
+                  <div class="login-popup__form__remember-me login-checkbox">
+                    <input type="checkbox" id="login-popup__remember-me"/>
+                    <label class="decor" for="login-popup__remember-me"></label>
+                    <label for="login-popup__remember-me">Запам’ятати мене</label>
+                  </div>
+                  <div class="login-popup__form__loss-pass">
+                    <button class="loss-pass">Забули пароль?</button>
+                  </div>
+                </div>
+                <div class="login-popup__buttons"> 
+                  <button class="button-gray login-popup__button">ЗБЕРЕГТИ</button>
+                  <button class="button-gray-border login-popup__button">СКАСУВАТИ</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="register-popup" aria-hidden="true">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <div class="popup__body">
+            <button class="close-popup" data-close="" type="button"> <img src="img/icons/circle-close.svg" alt=""/></button>
+            <form class="login-popup__form" action="URL">
+              <div class="login-popup__title">Вхід</div>
+              <div class="login-popup__form">
+                <div class="login-popup__form__name">
+                  <div class="login-popup__name__label">Ім’я</div>
+                  <input type="text" placeholder=""/>
+                </div>
+                <div class="login-popup__form__email">
+                  <div class="login-popup__email__label">Електронна пошта</div>
+                  <input type="text" placeholder=""/>
+                </div>
+                <div class="login-popup__form__password">
+                  <div class="login-popup__password__label">Пароль</div>
+                  <input type="text" placeholder=""/><span class="_error">Невірно введений пароль</span>
+                </div>
+                <div class="login-popup__form__confidentiality"><span>Реєструючись, я погоджуюсь з <a href="">Політикою конфіденційності </a>та <a href="">Умовами використання </a>сайту </span></div>
+                <div class="login-popup__buttons"> 
+                  <button class="button-gray login-popup__button">ЗБЕРЕГТИ</button>
+                  <button class="button-gray-border login-popup__button">СКАСУВАТИ</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cookie" id="cookie-menu">
+      <div class="cookie__wrapper"> 
+        <div class="cookie__container"> 
+          <div class="cookie__text">МИ ВИКОРИСТОВУЄМО КУКІ НА НАШОМУ САЙТІ. ЗАЛИШАЮЧИСЬ НА НАШОМУ САЙТІ, ВИ ПОГОДЖУЄТЕСЬ З НАШОЮ <a href="#"> ПОЛІТИКОЮ КУКІ.</a></div>
+          <div class="cookie__buttons"> 
+            <button class="cookie__button cookie__button-reject">ВІДХИЛИТИ</button>
+            <button class="cookie__button cookie__button-accept">ПРИЙНЯТИ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="alert-block">
+      <div class="alert-block-wrapper"> 
+        <div class="alert-block-block"> 
+          <div class="alert-block-icon"> <img src="img/icons/close-button.svg" alt=""/></div>
+          <div class="alert-block-text">
+            <p>Оберіть Сторона керування</p>
+            <p>Оберіть Сторона керування</p>
+          </div>
+          <button class="alert-block-close"> <img src="img/icons/close.svg" alt=""/></button>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js?_v=20230216122953"></script>
+    <script src="js/swiper.js?_v=20230216122953"></script>
+    <script src="js/app.js?_v=20230216122953"></script>
+    <script src="js/spollers.js?_v=20230216122953"></script>
+    <script src="js/tabs.js?_v=20230216122953"></script>
+    <script src="js/popups.js?_v=20230216122953"></script>
+  </body>
+</html>
